@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "PharmaGo",
+    "slug": "pharma-go",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pharmago.app"
+    },
+    "android": {
+      "package": "com.pharmago.app"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow PharmaGo to use your location."
+        }
+      ]
+    ]
+  }
+} 

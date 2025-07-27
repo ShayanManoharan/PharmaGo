@@ -1,0 +1,10 @@
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS Simulator, arch:arm64, id:4DBF3BD5-3E58-4EE2-BBD9-831C76ACF5D3, OS:18.4, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:4DBF3BD5-3E58-4EE2-BBD9-831C76ACF5D3, OS:18.4, name:iPhone 16 Pro }
+** BUILD FAILED **
+
+
+The following build commands failed:
+	PhaseScriptExecution [CP-User]\ Generate\ Specs /Users/shayansmacbook/Library/Developer/Xcode/DerivedData/PharmaGo-elqokelkhxmcfkdmffhowufsuszj/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/React-rncore.build/Script-46EB2E0001B050.sh (in target 'React-rncore' from project 'Pods')
+	Building workspace PharmaGo with scheme PharmaGo and configuration Debug
+(2 failures)
