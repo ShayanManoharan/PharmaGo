@@ -1,74 +1,53 @@
-# PharmaGo - React Native App
+💊 PharmaGo – Mobile Health Delivery App
+📱 Overview
+PharmaGo is a cross-platform mobile application designed to provide accessible, affordable, and trusted delivery of pharmaceutical goods and transportation to medical facilities. The app empowers users—especially elderly, disabled, or those with limited mobility—to schedule deliveries and rides with ease and confidence.
 
-A fully functional React Native app for pharmaceutical delivery services, built with Expo.
+🚨 Problem
+Millions of individuals face significant barriers in accessing pharmacies and hospitals due to:
 
-## Features
+Mobility limitations
 
-- 8 complete screens matching the Figma design
-- Interactive maps with location markers
-- Real-time messaging interface
-- Order scheduling and tracking
-- Driver management system
-- Checkout and payment flow
+Lack of reliable transportation
 
-## Screens
+High costs
 
-1. **Onboarding Screen** - Welcome screen with app introduction
-2. **Products Screen** - Categories and product listings
-3. **Home Screen** - Map interface with delivery scheduling
-4. **Schedule Delivery Screen** - Date and time selection
-5. **Drivers Screen** - Available drivers list
-6. **Messaging Screen** - Chat interface with QR code
-7. **Checkout Screen** - Order summary and payment
-8. **Order Confirmation Screen** - Order tracking and status
+Inefficient systems lacking user trust
 
-## Installation
+There is a pressing need for a more accessible and affordable system to ensure essential medications and care are delivered efficiently.
 
-1. Install dependencies:
-```bash
-npm install
-```
+🎯 Target Market
+PharmaGo serves:
 
-2. Start the development server:
-```bash
-npm start
-```
+Individuals needing convenient access to medications or transportation
 
-3. Run on iOS:
-```bash
-npm run ios
-```
+Elderly or limited mobility individuals who can’t drive
 
-4. Run on Android:
-```bash
-npm run android
-```
+Disabled or injured individuals with ongoing medical needs
 
-## Dependencies
+📊 According to the U.S. Census, the elder care market is valued at $830 billion with an estimated 5.8% CAGR (2024–2029).
 
-- React Native with Expo
-- React Navigation for screen navigation
-- React Native Maps for map functionality
-- Expo Location for location services
-- React Native Vector Icons for icons
+💡 Key Features
+Product Selection: Browse and select items like prescriptions, vitamins, groceries, and health essentials
 
-## Project Structure
+Real-Time Mapping: View your delivery or ride location on a live map
 
-```
-src/
-├── screens/
-│   ├── OnboardingScreen.js
-│   ├── ProductsScreen.js
-│   ├── HomeScreen.js
-│   ├── ScheduleDeliveryScreen.js
-│   ├── DriversScreen.js
-│   ├── MessagingScreen.js
-│   ├── CheckoutScreen.js
-│   └── OrderConfirmationScreen.js
-```
+Scheduling: Choose a specific time slot for delivery or transport
 
-## Navigation Flow
+Driver Trust System: Communicate and build trust with frequent drivers
 
-Onboarding → Products → Home → Schedule Delivery → Drivers → Messaging → Checkout → Order Confirmation
+Chat + QR: Chat with drivers and securely share prescriptions via QR codes
 
-The app provides a complete user journey from initial onboarding through order placement and tracking. 
+Checkout Flow: Place and track orders with clear summaries and status updates
+
+
+🚀 Tech Stack
+Frontend: Figma (Design), React Native (Prototype)
+
+Backend: Firebase / Node.js (Planned)
+
+Mapping: Google Maps API (Concept)
+
+Messaging: In-app chat UI (Prototyped)
+
+🧠 Motivation
+PharmaGo was created to address the gap in healthcare delivery for those with physical limitations or transportation challenges. The goal is to ensure easy access to medications and care through a simple and reliable mobile interface.
